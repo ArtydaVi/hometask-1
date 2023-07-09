@@ -1,0 +1,9 @@
+def print_words_separately(sentence):
+    words = sentence.split()
+
+    for word in words:
+        print(word)
+
+# Пример использования
+sentence = "Это пример предложения, которое будет разделено на отдельные слова"
+print_words_separately(sentence)
